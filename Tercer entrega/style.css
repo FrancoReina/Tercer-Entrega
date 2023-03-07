@@ -1,0 +1,67 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 20%;
+    margin-top: 30px;
+	background: linear-gradient(to right, red , yellow);
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+.colorBoton {
+    color: white;
+    background-color: #85bb65;
+}
+
+.colorBoton:hover {
+    background-color: green;
+    color:white;
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+    color: #333;
+    position: relative;
+    cursor: pointer;
+  }
+  
+.total {
+    margin-top: 1rem;
+}
+
+.row {
+    display: flex;
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(255, 119, 0, 0.5);
+    text-align: center;
+    text-transform: none;
+    align-items: center;
+    margin: 1rem;
+}
+
+.fa-minus-circle,
+.fa-plus-circle {
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: auto;
+}
